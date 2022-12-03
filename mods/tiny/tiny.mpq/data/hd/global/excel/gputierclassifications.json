@@ -1,0 +1,39 @@
+{
+    // platformTier must be "Low", "Medium", "High", or "Ultra"
+    "nvidiaGpuData": [
+        { "gpuName": "GTX 660", "platformTier": "Low", "allowDefault4k": false  },
+        { "gpuName": "GTX 960", "platformTier": "Low", "allowDefault4k": false  },
+        { "gpuName": "GTX 970", "platformTier": "Low", "allowDefault4k": false  },
+        { "gpuName": "GTX 980", "platformTier": "Low", "allowDefault4k": false  },
+        { "gpuName": "GTX 1050", "platformTier": "Low", "allowDefault4k": false  },
+        { "gpuName": "GTX 1060", "platformTier": "Low", "allowDefault4k": false  },
+        { "gpuName": "GTX 1070", "platformTier": "Low", "allowDefault4k": false  },
+        { "gpuName": "GTX 1080", "platformTier": "Low", "allowDefault4k": false  },
+        { "gpuName": "GTX 1090", "platformTier": "Low", "allowDefault4k": false  },
+        // All 20 series cards get set to high so don't have to include tier number
+        { "gpuName": "RTX 20", "platformTier": "Low", "allowDefault4k": false  },
+		// All 30 series cards get set to ultra (except 3050) so don't have to include tier number
+		{ "gpuName": "RTX 3050", "platformTier": "Low", "allowDefault4k": false  },
+        { "gpuName": "RTX 30", "platformTier": "Low", "allowDefault4k": false   },
+    ],
+        "amdGpuData": [
+        { "gpuName": "Vega 48", "platformTier": "Low", "allowDefault4k": false  },
+        { "gpuName": "Vega 56", "platformTier": "Low", "allowDefault4k": false  },
+        { "gpuName": "Vega 64", "platformTier": "Low", "allowDefault4k": false  },
+        // Entire Radeon 500 series gets Medium, need to explicilty number since 5000 series starts with same base
+        { "gpuName": "Radeon HD 7800 Series", "platformTier": "Low", "allowDefault4k": false },
+        { "gpuName": "Radeon RX 540", "platformTier": "Low", "allowDefault4k": false  },
+        { "gpuName": "Radeon RX 550", "platformTier": "Low", "allowDefault4k": false  },
+        { "gpuName": "Radeon RX 560", "platformTier": "Low", "allowDefault4k": false  },
+        { "gpuName": "Radeon RX 570", "platformTier": "Low", "allowDefault4k": false  },
+        { "gpuName": "Radeon RX 580", "platformTier": "Low", "allowDefault4k": false  },
+        { "gpuName": "Radeon RX 590", "platformTier": "Low", "allowDefault4k": false  },
+        { "gpuName": "Radeon RX 5500", "platformTier": "Low", "allowDefault4k": false  },
+        { "gpuName": "Radeon RX 5600", "platformTier": "Low", "allowDefault4k": false  },
+        { "gpuName": "Radeon RX 5700", "platformTier": "Low", "allowDefault4k": false  },
+        { "gpuName": "Radeon RX 6600", "platformTier": "Low", "allowDefault4k": false  },
+        { "gpuName": "Radeon RX 6700", "platformTier": "Low", "allowDefault4k": false  },
+        { "gpuName": "Radeon RX 6800", "platformTier": "Low", "allowDefault4k": false  },
+        { "gpuName": "Radeon RX 6900", "platformTier": "Low", "allowDefault4k": false  },
+    ],
+}

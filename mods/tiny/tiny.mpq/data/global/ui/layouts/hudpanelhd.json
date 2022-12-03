@@ -1,0 +1,18 @@
+{
+    "type": "HUDPanelHD", "name": "HUDPanel",
+    "fields": {
+        "priority": 100,
+        "anchor": { "x": 0.5, "y": 1 },
+        "rect": { "x": -498, "y": -700, "width": 995, "height": 350 },
+        "skillsOnRow": 13,
+    },
+    "children": [
+        {
+            "type": "ImageWidget", "name": "Overlay",
+            "fields": {
+                "filename": "PANEL/HUD_02/front_panel",
+                "rect": { "x": 0 },
+            },
+        },
+    ]
+}

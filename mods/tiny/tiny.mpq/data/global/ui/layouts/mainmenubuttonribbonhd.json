@@ -1,0 +1,55 @@
+{
+    "type": "Panel", "name": "MainMenuButtonRibbon",
+    "fields": {
+        "anchor": { "x": 0.0 },
+    },
+    "children": [
+        {
+            "type": "ImageWidget", "name": "Ribbon",
+            "fields": { "rect": { "x": 0, "y": 0 }, "filename": "" },
+            "children": [
+                {
+                    "type": "AnimatedImageWidget", "name": "Logo",
+                    "fields": {
+                        "rect": { "x": 113, "y": 170 },
+                        "filename": "LogoAnimation/LogoAnimation",
+                        "fps": 20,
+                    },
+                },
+                {
+                    "type": "ImageWidget", "name": "ResurrectedText",
+                    "fields": {
+                        "rect": { "x": 170, "y": 500 },
+                        "filename": "LogoAnimation/ResurrectedText",
+                    },
+                },
+                {
+                    "type": "ButtonWidget", "name": "Settings",
+                    "fields": {
+                        "rect": { "x": 165, "y": 820 },
+                        "filename": "FrontEnd\\HD\\Final\\FrontEnd_ButtonMed",
+                        "textString": "@OptionsHD",
+                        "onClickMessage": "PanelManager:OpenPanel:SettingsPanel",
+                        "textColor": "$LightButtonTextColor",
+                        "text/style": "$StyleFEButtonText",
+                        "hoveredFrame": 3,
+                        "disabledFrame": 2,
+                    }
+                },
+                {
+                    "type": "ButtonWidget", "name": "Exit",
+                    "fields": {
+                        "rect": { "x": 165, "y": 1240 },
+                        "filename": "FrontEnd\\HD\\Final\\FrontEnd_ButtonMed",
+                        "textString": "@strexitentiregame",
+                        "onClickMessage": "FrontEndNavigation:ToExit",
+                        "textColor": "$LightButtonTextColor",
+                        "text/style": "$StyleFEButtonText",
+                        "hoveredFrame": 3,
+                        "disabledFrame": 2,
+                    }
+                },
+            ]
+        },
+    ]
+}

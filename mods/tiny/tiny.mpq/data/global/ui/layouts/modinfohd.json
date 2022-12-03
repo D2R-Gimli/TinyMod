@@ -1,0 +1,101 @@
+{
+    "type": "HelpPanel",
+    "name": "modinfo",
+    "fields": {
+        "priority": 300,
+        "fitToParent": true,
+        "childFormats": [],
+    },
+    "children": [{
+            "type": "RectangleWidget",
+            "name": "TransparentBG",
+            "fields": {
+                "fitToScreen": true,
+                "color": [0.0, 0.0, 0.0, 0.6]
+            },
+            "children": [{
+                    "type": "ClickCatcherWidget",
+                    "name": "catcher",
+                    "fields": {
+                        "fitToParent": true
+                    }
+                }, ]
+        }, {
+            "type": "Widget",
+            "name": "CenterSection",
+            "fields": {
+                "anchor": {
+                    "x": 0.5,
+                    "y": 0.5
+                },
+                "rect": {
+                    "x": -55,
+                    "y": -400
+                },
+            },
+            "children": [{
+                    "type": "TextBoxWidget",
+                    "name": "ModInfo",
+                    "fields": {
+                        "rect": {
+                            "x": -420,
+                            "y": -400,
+                            "width": 1400,
+                            "height": 700
+                        },
+                        "text": "\n TINY MOD v1   --> (works on bnet)\n Latest Update: 20.11.2022\n\n Creator: Gimli#4667 on Discord, e-soni on d2jsp\n\n General Info: (check the readme for changelog)\n   - reworked the menu\n   - updated to patch 2.5 | game version: 1.4.71776\n   - removed videos, music and all that sh*t\n   - added info (press G to play)\n   - renamed from blockhd to TINY\n     (due different mods called blockhd)\n \n \n Contact me for further improvements/ideas!",
+                        "fontType": "26ptF",
+                        "style": {
+                            "fontColor": {
+                                "r": 128,
+                                "g": 188,
+                                "b": 194,
+                                "a": 255
+                            },
+                            "pointSize": 26,
+                            "options": {
+                                "newlineHandling": "standard",
+                                "lineWrap": true
+                            },
+                            "alignment": {
+                                "h": "left"
+                            },
+                            "spacing": {
+                                "leading": 1.1
+                            }
+                        }
+                    }
+                }, {
+                    "type": "ButtonWidget",
+                    "name": "Close",
+                    "fields": {
+                        "anchor": {
+                            "x": 0.5
+                        },
+                        "rect": {
+                            "x": -100, //-135
+                            "y": 500
+                        },
+                        "filename": "FrontEnd\\HD\\Final\\FrontEnd_ButtonSmall_r",
+                        "textString": "close",
+                        "focusIndicatorFilename": "Controller/HoverImages/FrontEndButtonSmall_Hover",
+                        "focusIndicatorOffset": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "onClickMessage": "PanelManager:ClosePanel:modinfo",
+                        "text/style": "$StyleFEButtonText",
+                        "pointSize": "$NormalFontSize",
+                        "textColor": {
+                            "r": 255,
+                            "g": 0,
+                            "b": 0,
+                            "a": 255
+                        },
+                        "tooltipString": "@strClose",
+                        "sound": "cursor_close_window_hd",
+                        "acceptsEscKeyEverywhere": true
+                    }
+                }, ]
+        }, ]
+}
