@@ -1,13 +1,5 @@
 D2R : TINY MOD by Gimli#4667 (e-soni@d2jsp)
 
-# v1.0 (24.11.2022)
-	- reworked the menu
-	- updated to patch 2.5 | game version: 1.4.71776
-	- removed videos, music and all that sh*t
-	- added info (press G to play)
-	- renamed from blockhd to TINY (due different mods called blockhd)
-	- Contact me for further improvements/ideas!
-	
 
 # Install instructions #
 ------------------------
@@ -27,3 +19,21 @@ Step 5: Open the Battle.net Launcher, click the "settings" icon (gearwheel), got
 		Type in or attach to already used arguments "-mod tiny -txt"
 		
 Step 6: Start D2R and enjoy a faster game :D
+
+
+
+
+# Changelog History #
+---------------------
+
+# v1.1 (24.02.2023)
+	- updated to patch 2.6
+
+
+# v1.0 (24.11.2022)
+	- reworked the menu
+	- updated to patch 2.5 | game version: 1.4.71776
+	- removed videos, music and all that sh*t
+	- added info (press G to play)
+	- renamed from blockhd to TINY (due different mods called blockhd)
+	- Contact me for further improvements/ideas!
