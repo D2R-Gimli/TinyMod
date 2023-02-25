@@ -17,8 +17,25 @@ Step 4: Go into that mods folder and create a folder called "tiny". In this fold
 Step 5: Open the Battle.net Launcher, click the "settings" icon (gearwheel), got to "game settings"
 		Activate "additional command line arguments"
 		Type in or attach to already used arguments "-mod tiny -txt"
+		You can also use even more arguments like -ns for no sound for example.
 		
 Step 6: Start D2R and enjoy a faster game :D
+
+Step 7: Optional: If you use a shortcut for loading with tiny mod, you can use the icon (tiny2.ico) i've made to divide the different shortcuts :)
+
+
+
+
+
+
+# Option starting process #
+---------------------------
+Chobotz made some nice PowerShell scripts to start D2R with preset Informations without the battle.net launcher.
+It is not a compilled exe file or something, you can 100% see the code in what it is doing (no hidden spyware etc.)
+https://github.com/Chobotz/D2R-multiclient-tools
+
+Give it a try if you want to :D
+
 
 
 
