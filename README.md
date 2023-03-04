@@ -6,9 +6,26 @@ Old name **blockhd** changed to **tiny** due alot other modders used the same na
 
 ![Untitled-1](https://user-images.githubusercontent.com/119764208/222894520-6bea772c-472b-4a65-89b6-9efb7a90f8ef.png)
 
-# Informations
+**Download the latest release and unzip it.**
+**In the mods folder you can find the README file with the install instructions.**
 
-**Check out the wiki** --> https://github.com/D2R-Gimli/TinyMod/wiki/Install-Instructions
+# What does this mod?
+* Blocks as many HD content of the game as possible while keep the gameplay functionality available
+* You can still be in Lobby / Chat, etc..
+* Ingame you can just stand still and do nothing (filler)
+* If you wanna play, press the hotkey to switch to old legacy graphics
+* Super fast loading times when switching acts/waypoints
+* Reduced RAM usage significant by arround 66% in compare to no mod usage
+* You dont need to extract your gamefiles (saves space)
+
+# What is it good for?
+* Game fillers
+* Anni hunters
+* Players with a weak pc/laptop
+* Mass players rushing for HFQ/CRush
+* Botters? idk about
+
+# Video
 
 **Video demonstration:** https://streamable.com/869iuc
 
