@@ -6,8 +6,8 @@ Old name **blockhd** changed to **tiny** due alot other modders used the same na
 
 ![Untitled-1](https://user-images.githubusercontent.com/119764208/222894520-6bea772c-472b-4a65-89b6-9efb7a90f8ef.png)
 
-**Download the latest release and unzip it.**
-**In the mods folder you can find the README file with the install instructions.**
+# Instructions
+**Download the latest release and unzip it. Check the README file with the install instructions.**
 
 # What does this mod?
 * Blocks as many HD content of the game as possible while keep the gameplay functionality available
