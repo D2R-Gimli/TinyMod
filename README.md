@@ -5,11 +5,14 @@
 
 Remove/Block HD graphics from Diablo II Resurrected to reduced the hardware sources consumed
 
+# Informations
 
-check out the wiki --> https://github.com/D2R-Gimli/TinyMod/wiki/Install-Instructions
+**Check out the wiki** --> https://github.com/D2R-Gimli/TinyMod/wiki/Install-Instructions
 
-Video preview: https://streamable.com/869iuc
+**Video demonstration:** https://streamable.com/869iuc
 
+
+# Pictures
 
 ![tiny_newchar](https://user-images.githubusercontent.com/119764208/222893928-afa6b7d0-307b-4683-b0da-a8cde0a66d56.png)
 
