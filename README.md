@@ -15,8 +15,8 @@ Old name **blockhd** changed to **tiny** due alot other modders used the same na
 * Ingame you can just stand still and do nothing (filler)
 * If you wanna play, press the hotkey to switch to old legacy graphics
 * Super fast loading times when switching acts/waypoints
-* Reduced RAM usage significant by arround 66% in compare to no mod usage
-* You dont need to extract your gamefiles (saves space)
+* Reduced CPU/RAM usage significant by more then 50% in compare to no mod usage
+* You dont need to extract your gamefiles with casc view (saves space)
 
 # What is it good for?
 * Game fillers
