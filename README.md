@@ -1,9 +1,9 @@
 # TinyMod
 
-(old name was blockhd but alot other modders used it aswell, so i changed to not mix up with them)
-
-
 Remove/Block HD graphics from Diablo II Resurrected to reduced the hardware sources consumed
+Old name **blockhd** changed to **tiny** due alot other modders used the same name for there own stuff.
+
+![Untitled-1](https://user-images.githubusercontent.com/119764208/222894520-6bea772c-472b-4a65-89b6-9efb7a90f8ef.png)
 
 # Informations
 
