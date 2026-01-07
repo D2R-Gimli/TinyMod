@@ -1,4 +1,4 @@
-# TinyMod
+# TinyMod (DISCONTINUED! - USE AT YOUR OWN RISK)
 
 Remove/Block HD graphics from Diablo II Resurrected to reduced the hardware sources consumed
 
